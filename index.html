@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Homework 14</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				HEADER
+			</div>
+		</header>
+		<main class="page">
+			<section class="register-form">
+				<div class="register-form__container">
+					<h1 class="register-form__title">register to furnitur</h1>
+					<p class="register-form__subtitle">get monthly voucher with just one click!</p>
+					<div class="register-form__inner">
+						<form method="post" action="#" class="register-form__form form">
+							<h3 class="form__title">your information</h3>
+							<div class="form__text">
+								<p>You already have an account? <a href="#">Sign in here</a></p>
+							</div>
+							<div class="form__body">
+								<input class="form__input form__input--user" name="form[]" type="text" placeholder="Your name" required>
+								<input class="form__input form__input--mail" type="email" name="" id="" placeholder="E-mail">
+								<input class="form__input form__input--phone" type="tel" placeholder="Phone number" name="" id="">
+								<input class="form__input form__input--pass" type="password" name="" id="" placeholder="Password"
+									minlength="6" maxlength="12">
+								<input class="form__input form__input--pass" type="password" name="" id="" placeholder="Repeat password"
+									minlength="6" maxlength="12">
+							</div>
+							<button class="form__btn" type="submit">Create an account</button>
+						</form>
+						<div class="register-form__content promo-content">
+							<div class="promo-content__img">
+								<img src="img/form_content.jpg" alt="Image">
+							</div>
+							<div class="promo-content__box">
+								<div class="promo-content__hot">hot</div>
+								<h3 class="promo-content__title">discount <br>
+									25% for <br> new <br> member</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="exercise">
+				<div class="exercise__container">
+					<h2 class="exercise__title">Практика до уроку №14</h2>
+					<div class="insurance">
+						<div class="insurance__calculator calculator-kasko">
+							<h2 class="calculator-kasko__title">Калькулятор КАСКО</h2>
+							<label class="calculator-kasko__label">
+								<h5 class="calculator-kasko__title-label">Вартість авто</h5>
+								<input class="calculator-kasko__input" name="form[]" type="number" minlength="7" placeholder="1000000"
+									required tabindex="1">
+							</label>
+							<label class="calculator-kasko__label">
+								<h5 class="calculator-kasko__title-label">Марка авто</h5>
+								<select name="" id="" size="1">
+									<option value="3">Acura</option>
+									<option value="1">Audi</option>
+									<option value="1">Bmw</option>
+									<option value="2">Chevrolet</option>
+									<option value="2">Ford</option>
+									<option value="2">Hyundai</option>
+									<option value="1">Mercedes-Benz</option>
+									<option value="3">Porsche</option>
+									<option value="3">Volvo</option>
+								</select>
+							</label>
+							<div class="calculator-kasko__franshiza">
+								<h5 class="calculator-kasko__title-label">Розмір франшизи</h5>
+								<label class="calculator-kasko__label">
+									<span class="calculator-kasko__title-franshiza">0%</span>
+									<input class="calculator-kasko__input" type="radio" name="car" value="3">
+								</label>
+								<label class="calculator-kasko__label">
+									<span class="calculator-kasko__title-franshiza">0.5%</span>
+									<input class="calculator-kasko__input" type="radio" name="car" value="2.5">
+								</label>
+								<label class="calculator-kasko__label">
+									<span class="calculator-kasko__title-franshiza">1%</span>
+									<input class="calculator-kasko__input" type="radio" name="car" value="2">
+								</label>
+								<label class="calculator-kasko__label">
+									<span class="calculator-kasko__title-franshiza">5%</span>
+									<input class="calculator-kasko__input" type="radio" name="car" value="1">
+								</label>
+
+							</div>
+							<div class="calculator-kasko__sto">
+								<h5 class="calculator-kasko__title-label">Вибір СТО</h5>
+								<label class="calculator-kasko__label">
+									<span class="calculator-kasko__title-sto">Авторизоване СТО</span>
+									<input type="radio" name="sto">
+								</label>
+								<label class="calculator-kasko__label">
+									<span class="calculator-kasko__title-sto">Не авторизоване</span>
+									<input type="radio" name="sto">
+								</label>
+							</div>
+							<button class="calculator-kasko__btn" type="button">Вартість договору страхування</button>
+						</div>
+						<form class="insurance__form order-form" action="#" method="post" enctype="multipart/form-data">
+							<h2 class="order-form__title">Форма для замовлення договору</h2>
+							<label class="order-form__label">
+								<h5 class="order-form__title-label">Фамілія</h5>
+								<input class="order-form__input" autocomplete="on" name="form[]" type="text" placeholder="Фамілія"
+									required tabindex="1">
+							</label>
+							<label class="order-form__label">
+								<h5 class="order-form__title-label">Ім'я</h5>
+								<input class="order-form__input" autocomplete="on" name="form[]" type="text" placeholder="Ім'я" required
+									tabindex="2">
+							</label>
+							<label class="order-form__label">
+								<h5 class="order-form__title-label">Адреса проживання</h5>
+								<input class="order-form__input" autocomplete="on" name="form[]" type="text"
+									placeholder="Адреса проживання" required tabindex="3">
+							</label>
+							<label class="order-form__label">
+								<h5 class="order-form__title-label">Номер телефону</h5>
+								<input class="order-form__input" autocomplete="on" name="form[]" type="tel" maxlength="13" value="+380"
+									required tabindex="4">
+							</label>
+							<label class="order-form__label">
+								<h5 class="order-form__title-label">Електронна пошта</h5>
+								<input class="order-form__input" autocomplete="on" name="form[]" type="email"
+									placeholder="exempl@gmail.com" required tabindex="5">
+							</label>
+							<label class="order-form__label">
+								<h5 class="order-form__title-label">Копії документів для оформлення договору</h5>
+								<input class="order-form__input" accept=".jpg, .png .pdf" multiple name="form[]" type="file"
+									placeholder="exempl@gmail.com" required tabindex="5">
+							</label>
+							<label class="order-form__label">
+								<h5 class="order-form__title-label">Коментар до замовлення</h5>
+								<textarea class="order-form__text" name="form[]"></textarea>
+							</label>
+							<button class="order-form__btn" type="submit">Відправити</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				FOOTER
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
